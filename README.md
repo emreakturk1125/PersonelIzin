@@ -11,6 +11,6 @@ Proje Hakkında
 
 -> Üye olan kullanıcı  izin bilgilerini girip, pdf olarak çıktısını alabilir.
 
--> Database klasörü altında veritabanı scripti mevcuttur.
+-> MSSQL veritabanı ile yapılmıştır. Database klasörü altında veritabanı scripti mevcuttur.
 
 -> İndirilip connectionstring ayarı yapıldıktan sonra visual studio ortamında çalıştırılabilir
