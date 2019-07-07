@@ -12,7 +12,7 @@ namespace ptsIZIN
 
         public SqlConnection baglan()
         {
-            SqlConnection baglanti = new SqlConnection("Server = EMRE-BILG\\MSSQL2014; user id = sa; password = emre123+-; database=personeltakip; trusted_connection = false; ");
+            SqlConnection baglanti = new SqlConnection("Data Source=EMRE-BILG\\MSSQL2014;Initial Catalog=personeltakip;User ID=sa;Password=emre123+-;");
             baglanti.Open();
             return (baglanti);
         }
